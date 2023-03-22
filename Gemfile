@@ -1,6 +1,12 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem 'pg', '~> 1.4', '>= 1.4.6'
+
+gem 'jwt'
+
+gem 'bcrypt', '~> 3.1.7'
+
 ruby "2.7.4"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
